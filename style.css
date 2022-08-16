@@ -3,10 +3,44 @@ body {
     background-color: rgb(248, 244, 244)
 }
 
-p {
-    
+#meu_nome {
+    text-align: center;
+    border: 2px solid red;
 }
 
-h1 {
-    background-color: rgb(208, 209, 209)
+.foto_descricao {
+    position: ;
+    border: 2px solid green;
+    height: 7cm;
+}
+
+.minhaFoto {
+    position: relative;
+    float: left;
+    width: 6cm;
+    border: 2px solid red;
+}
+
+.descricao {
+    position: relative;
+    border: 2px solid blue;
+    margin-left: 6.2cm;
+    padding-left:cm;
+    height: cm;
+    width: cm;
+    background-color: antiquewhite;
+}
+
+#resido {
+    border: 2px solid green;
+    position: absolute;
+}
+
+#minhas_habilidades {
+    position: absolute;
+    width: 10cm;
+    height: 10cm;
+    border: 2px solid rgb(167, 28, 28);
+    margin-top: 1cm;
+    
 }
