@@ -9,7 +9,6 @@ body {
 }
 
 .foto_descricao {
-    position: ;
     border: 2px solid green;
     height: 7cm;
 }
@@ -33,7 +32,6 @@ body {
 
 #resido {
     border: 2px solid green;
-    position: absolute;
 }
 
 #minhas_habilidades {
