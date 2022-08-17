@@ -5,40 +5,32 @@ body {
 
 #meu_nome {
     text-align: center;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
 }
 
 .foto_descricao {
-    border: 2px solid green;
-    height: 7cm;
+    height: 6cm;
 }
 
 .minhaFoto {
-    position: relative;
     float: left;
     width: 6cm;
-    border: 2px solid red;
+    height: 6cm;
+    border: 2px solid black;
 }
 
 .descricao {
-    position: relative;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
+    position: absolute;
     margin-left: 6.2cm;
-    padding-left:cm;
-    height: cm;
-    width: cm;
-    background-color: antiquewhite;
+    margin-top: 3cm;
 }
 
 #resido {
-    border: 2px solid green;
+    margin-top: 2px;
 }
 
 #minhas_habilidades {
-    position: absolute;
-    width: 10cm;
-    height: 10cm;
-    border: 2px solid rgb(167, 28, 28);
-    margin-top: 1cm;
-    
+    margin-top: 2px;
+    background-color: gainsboro;
 }

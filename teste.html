@@ -4,18 +4,45 @@
     <meta charset="UTF-8">
     <title>TESTE</title>
     <style>
-        p {
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #Principal {
             border: 2px solid red;
-            width: 5cm;
-            height: 5cm;
-            padding-left: 2cm;
-            margin-left: 2cm;
+            height: 10cm;
+            width: 15cm;
         }
 
+        #minhaFoto {
+            width: 5cm;
+            float: left;
+            z-index: 1;
+        }
 
+        #DentroPrincipal {
+            border: 2px solid blue;
+            margin-left: 5cm;
+            z-index: 2;
+        }
+        #Secundaria{
+            border: 2px solid green;
+            width: 10cm;
+        }
     </style>
 </head>
 <body>
-    <p>conteúdo</p>
+    <div id="Principal">
+        <img id="minhaFoto" src="https://png.pngtree.com/png-vector/20190710/ourlarge/pngtree-user-vector-avatar-png-image_1541962.jpg" alt="">
+        <div id="DentroPrincipal">
+            <h1>Habilidades</h1>
+            <ul>
+                <li>Habilidade 1</li>
+                <li>Habilidade 2</li>
+            </ul>
+        </div>
+    </div>
+    <div id="Secundaria">
+        <p>Conteúdo Secundário</p>
+    </div>
 </body>
 </html>
